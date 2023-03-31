@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nestjs-library/api/feature-config": [
+        "libs/api/feature-config/src/index.ts"
+      ],
+      "@nestjs-library/api/utils-config": ["libs/api/utils-config/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
